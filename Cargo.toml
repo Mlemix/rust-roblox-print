@@ -1,0 +1,12 @@
+[package]
+name = "rust-roblox-print"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mlemix"]
+publish = false
+
+[dependencies]
+winapi = { version = "0.3.9", features = ["libloaderapi"] }
+
+[lib]
+crate-type = ["cdylib"]
